@@ -1,0 +1,227 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;	
+	color: #381000;
+	cursor: default;
+}
+
+body{
+	max-width: 960px;
+	margin: auto;
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Chrome/Safari/Opera */
+	   -khtml-user-select: none; /* Konqueror */
+	     -moz-user-select: none; /* Firefox */
+	      -ms-user-select: none; /* Internet Explorer/Edge */
+	          user-select: none; /* Non-prefixed version, currently
+	                            	not supported by any browser */
+}
+
+header{
+	padding: 20px;
+	background: #F4E0D7;
+	clear: both;
+	background-image: url(http://kaluga24.tv/wp-content/uploads/2014/02/FotO-1.jpg);
+	border-radius: 10px;
+}
+
+nav{
+	width: 16%;
+	float: left;
+	background: #F4E0D7;
+	padding: 2%;
+	text-align: center;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 2px 2px 0 white;
+	box-shadow: inset 2px 2px 0 white;
+}
+
+section{
+	width: 76%;
+	float: left;
+	background: #FAF2EA;
+	padding: 2%;
+	text-align: center;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 2px 2px 0 white;
+	box-shadow: inset 2px 2px 0 white;
+}
+
+article{
+	text-align: left;
+	display: inline-block;
+	margin: 20px;
+	overflow: auto;
+}
+
+footer{
+	clear: both;
+	background: #FFF7F1;
+	padding: 3%;
+	height: 15px;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 2px 2px 0 white;
+	box-shadow: inset 2px 2px 0 white;
+}
+
+p {
+	font-family: 'Marck Script', cursive;
+}
+
+h1{
+	text-decoration-color: #ffffff;
+}
+
+hr{
+	margin: 20px;
+}
+
+a{
+	text-decoration:none;
+	cursor: auto;
+}
+
+a:hover {
+	color: brown;
+}
+
+ul{
+	padding: 0;
+	margin-left: 5px;
+	line-height: 1.7;
+	list-style-type: none;
+}
+
+ol li{
+	display: inline;
+	padding: 5px;
+}
+
+img{
+	cursor: pointer;
+	border-radius: 50%;
+	border: 10px solid #F4E0D7;
+	width: 250px;
+	margin: 20px;
+	-webkit-transition: all 1s ease;
+	   -moz-transition: all 1s ease;
+	     -o-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	        transition: all 1s ease;
+}
+
+img:hover {
+	-webkit-filter: contrast(185%);  
+}
+
+button{
+	cursor: pointer;
+	color: white;
+	background: #E7C2B1;
+	border: 1px solid #DA9377;
+	border-radius: 10px;
+	padding: 8px;
+
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #E3A78F),
+	color-stop(1, #DE7E54)
+	);
+	background-image: -o-linear-gradient(bottom, #E3A78F 0%, #DE7E54 100%);
+	background-image: -moz-linear-gradient(bottom, #E3A78F 0%, #DE7E54 100%);
+	background-image: -webkit-linear-gradient(bottom, #E3A78F 0%, #DE7E54 100%);
+	background-image: -ms-linear-gradient(bottom, #E3A78F 0%, #DE7E54 100%);
+	background-image: linear-gradient(to bottom, #E3A78F 0%, #DE7E54 100%);
+}
+
+button:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.butttext{
+	color: white;
+}
+
+.butttext:hover{
+	color: white;
+}
+
+.logo {
+	color: #F4E0D7; 
+	cursor: auto;
+	font-size: 50px;
+	margin-left: 25px;
+	text-shadow: black 2px 2px 0, black -2px -2px 0, 
+				 black -2px 2px 0, black 2px -2px 0;
+}
+
+.logo:hover {
+	color: #FAF2EA;
+}
+
+.title {
+	font-size: 40px;
+}
+
+.footertext{
+	color: #DE7E54;
+}
+
+/* МЕДИА ЗАПРОС для ширины в 800px */
+@media only screen and (max-width : 800px),
+only screen and (max-device-width : 800px){
+	
+	section{
+	width: 95.8%;
+	}
+
+	footer{
+	width: 93.8%;
+	height: 20px;
+	}
+
+	nav{
+	display:none;
+	}
+}
+
+/* МЕДИА ЗАПРОС для ширины в 600px */
+@media only screen and (max-width : 600px),
+only screen and (max-device-width : 600px){
+
+	header{
+	width: 100.5%;
+	}
+		
+	section{
+	width: 102.8%;
+
+	}
+
+	footer{
+	width: 100.8%;
+	height: 20px;
+	}
+
+/* МЕДИА ЗАПРОС для ширины в 320px */
+@media only screen and (max-width : 320px),
+only screen and (max-device-width : 320px){
+	
+	header{
+	width: 103%;
+	}
+		
+	section{
+	width: 111%;
+	}
+
+	footer{
+	width: 109%;
+	height: 20px;
+	}
+}

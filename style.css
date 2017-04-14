@@ -1,0 +1,199 @@
+*{
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-size: 20px;	
+	color: #381000;
+	cursor: default;
+}
+
+body{
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lobster', cursive;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	 user-select: none;          /* Non-prefixed version, currently
+								    not supported by any browser */
+}
+
+header{
+	padding: 20px;
+	background: #F4E0D7;
+	clear: both;
+	background-image: url(http://kaluga24.tv/wp-content/uploads/2014/02/FotO-1.jpg);
+	border-radius: 10px;
+}
+
+nav{
+	width: 16%;
+	float: left;
+	background: #F4E0D7;
+	padding: 2%;
+	min-height: calc(90vh - 112px);
+	border-radius: 10px;
+	-webkit-box-shadow: inset 2px 2px 0 white;
+	box-shadow: inset 2px 2px 0 white;
+}
+
+section{
+	width: 56%;
+	float: left;
+	background: #FAF2EA;
+	padding: 2%;
+	min-height: calc(90vh - 112px);
+	border-radius: 10px;
+	-webkit-box-shadow: inset 2px 2px 0 white;
+	box-shadow: inset 2px 2px 0 white;
+}
+
+article{
+	font-family: 'Marck Script', cursive;
+	margin: 13px;
+	overflow: auto;
+}
+
+aside{
+	width: 16%;
+	float: left;
+	background: #F4E0D7;
+	padding: 2%;
+	min-height: calc(90vh - 112px);
+	border-radius: 10px;
+	-webkit-box-shadow: inset 2px 2px 0 white;
+	box-shadow: inset 2px 2px 0 white;
+}
+
+footer{
+	clear: both;
+	background: #FFF7F1;
+	padding: 3%;
+	height: 15px;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 2px 2px 0 white;
+	box-shadow: inset 2px 2px 0 white;
+}
+
+a{
+	text-decoration:none;
+	cursor: auto;
+}
+
+a:hover {
+	color: brown;
+}
+
+ul{
+	padding: 0;
+	margin-left: 5px;
+	line-height: 1.7;
+	list-style-type: none;
+}
+
+h1{
+	text-decoration-color: #ffffff;
+}
+
+hr{
+	margin: 20px;
+}
+
+.logo {
+	text-align: left;
+	cursor: auto;
+	color: #F4E0D7; 
+	font-size: 50px;
+	margin-left: 25px;
+	text-shadow: black 2px 2px 0, black -2px -2px 0, 
+				 black -2px 2px 0, black 2px -2px 0;
+}
+
+.logo:hover {
+	color: #FAF2EA; 
+}
+
+.title {
+	font-size: 40px;
+}
+
+.footertext{
+	font-family: 'Marck Script', cursive;
+	color: #DE7E54;
+	text-align: left;
+}
+
+/* МЕДИА ЗАПРОС для ширины в 800px */
+@media only screen and (max-width : 800px),
+only screen and (max-device-width : 800px){
+	
+	section{
+	width: 76%;
+	}
+
+	nav{
+	display:none;
+	}
+	
+	aside{
+	}
+}
+
+/* МЕДИА ЗАПРОС для ширины в 600px */
+@media only screen and (max-width : 600px),
+only screen and (max-device-width : 600px){
+	
+	body{
+	width: 600px;
+	}
+
+	header{
+	width: 102.5%;
+	}
+		
+	section{
+	width: 105.5%;
+	}
+
+	aside{
+	width: 105.5%;
+	clear:both;
+	}
+
+	footer{
+	width: 103.5%;
+	height: 20px;
+	}
+}
+
+/* МЕДИА ЗАПРОС для ширины в 320px */
+@media only screen and (max-width : 320px),
+only screen and (max-device-width : 320px){
+		
+	body{
+	width: 320px;
+	}
+
+	header{
+	width: 103%;
+	}
+		
+	section{
+	width: 112%;
+	min-height: 400px;
+	}
+
+	aside{
+	width: 112%;
+	clear:both;
+	min-height: 450px;
+	}
+	footer{
+	width: 110%;
+	height: 20px;
+	}
+}
