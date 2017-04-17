@@ -19,7 +19,7 @@ body{
 	-moz-user-select: none;      /* Firefox */
 	-ms-user-select: none;       /* Internet Explorer/Edge */
 	 user-select: none;          /* Non-prefixed version, currently
-								    not supported by any browser */
+					not supported by any browser */
 }
 
 header{
@@ -110,7 +110,7 @@ hr{
 	font-size: 50px;
 	margin-left: 25px;
 	text-shadow: black 2px 2px 0, black -2px -2px 0, 
-				 black -2px 2px 0, black 2px -2px 0;
+		     black -2px 2px 0, black 2px -2px 0;
 }
 
 .logo:hover {
