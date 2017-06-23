@@ -174,7 +174,7 @@ button:hover{
 
 .disqus{
 	clear: both;
-	margin: 20px;
+	padding: 20px;
 	background: #FAF2EA;
 	border-radius: 10px;
 	-webkit-box-shadow: inset 2px 2px 0 white;
