@@ -173,6 +173,7 @@ button:hover{
 }
 
 .disqus{
+	clear: both;
 	background: #FAF2EA;
 	border-radius: 10px;
 	-webkit-box-shadow: inset 2px 2px 0 white;
