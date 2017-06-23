@@ -175,6 +175,8 @@ button:hover{
 .disqus{
 	height: auto;
 	background: #FAF2EA;
+	padding: 2%;
+	border-radius: 10px;
 }
 
 /* МЕДИА ЗАПРОС для ширины в 800px */
